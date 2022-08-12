@@ -150,14 +150,14 @@ MonoBehaviour:
       isFptlEnabled: 0
   m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7, type: 2}
   m_RenderPipelineRayTracingResources: {fileID: 0}
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: cfe881f9193e7f940a6bbbffe1cd643c, type: 2}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 8555f467fc9e98d488ede543d68f187e, type: 2}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
   m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198262773251917
-      data2: 13763000468751974424
+      data2: 13763000468760363032
     lodBias: 1
     lodBiasMode: 0
     lodBiasQualityLevel: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    supportLightLayers: 0
+    supportLightLayers: 1
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
     lightLayerName2: Light Layer 2
@@ -226,7 +226,7 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000080000
+      m_Values: 000100000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -271,7 +271,7 @@ MonoBehaviour:
       maxAreaLightsOnScreen: 64
       maxEnvLightsOnScreen: 64
       maxDecalsOnScreen: 512
-      maxPlanarReflectionOnScreen: 16
+      maxPlanarReflectionOnScreen: 1
       maxLightsPerClusterCell: 8
     hdShadowInitParams:
       maxShadowRequests: 128
@@ -440,8 +440,13 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: ebb8cee9535e626469e3621d25cc9eed, type: 2}
-  - {fileID: 11400000, guid: 2f36fc287873c6c498c74558973850d5, type: 2}
+  - {fileID: 11400000, guid: ee51361b76eb3b34ab564a1b92eaa461, type: 2}
+  - {fileID: 11400000, guid: d96d6c091bcedd24fa5fd75c32571521, type: 2}
+  - {fileID: 11400000, guid: fcd70d05840926746a3daff4f0a00e1a, type: 2}
+  - {fileID: 11400000, guid: ad180cf900c4ef141be2b350f09ffa5b, type: 2}
+  - {fileID: 11400000, guid: 7f594cf100fba854eaa40151b0af9ffa, type: 2}
+  - {fileID: 11400000, guid: 1f71c6a914e33d34791d5e8b69b5ffc8, type: 2}
+  - {fileID: 11400000, guid: efc44c45cabc99d45892d375649ac7ce, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
