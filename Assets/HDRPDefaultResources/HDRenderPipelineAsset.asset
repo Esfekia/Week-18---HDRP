@@ -153,7 +153,7 @@ MonoBehaviour:
   m_DefaultVolumeProfile: {fileID: 11400000, guid: 8555f467fc9e98d488ede543d68f187e, type: 2}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
-  m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02, type: 2}
+  m_DefaultLookDevProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198262773251917
@@ -208,7 +208,7 @@ MonoBehaviour:
       m_SchemaId:
         m_Id: With3Levels
     supportVolumetrics: 1
-    supportLightLayers: 1
+    supportLightLayers: 0
     lightLayerName0: Light Layer default
     lightLayerName1: Light Layer 1
     lightLayerName2: Light Layer 2
@@ -226,7 +226,7 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000040000
+      m_Values: 000100000004000000080000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -271,7 +271,7 @@ MonoBehaviour:
       maxAreaLightsOnScreen: 64
       maxEnvLightsOnScreen: 64
       maxDecalsOnScreen: 512
-      maxPlanarReflectionOnScreen: 1
+      maxPlanarReflectionOnScreen: 16
       maxLightsPerClusterCell: 8
     hdShadowInitParams:
       maxShadowRequests: 128
@@ -440,13 +440,8 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: ee51361b76eb3b34ab564a1b92eaa461, type: 2}
-  - {fileID: 11400000, guid: d96d6c091bcedd24fa5fd75c32571521, type: 2}
-  - {fileID: 11400000, guid: fcd70d05840926746a3daff4f0a00e1a, type: 2}
-  - {fileID: 11400000, guid: ad180cf900c4ef141be2b350f09ffa5b, type: 2}
-  - {fileID: 11400000, guid: 7f594cf100fba854eaa40151b0af9ffa, type: 2}
-  - {fileID: 11400000, guid: 1f71c6a914e33d34791d5e8b69b5ffc8, type: 2}
-  - {fileID: 11400000, guid: efc44c45cabc99d45892d375649ac7ce, type: 2}
+  - {fileID: 11400000, guid: 9cc762c4f06085a4e839a3ac79d33fa9, type: 2}
+  - {fileID: 11400000, guid: 027619d6733812d4692e12e0d0ba2c75, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
