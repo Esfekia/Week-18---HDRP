@@ -21,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hair_Upper_Layer
-  m_Shader: {fileID: -6465566751694194690, guid: 384d88ff5b296a44b89f1fb2d4442c01, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 384d88ff5b296a44b89f1fb2d4442c01,
+    type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT
     _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
   m_LightmapFlags: 4
@@ -161,8 +162,8 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
     - _AlphaClipThreshold: 0
-    - _AlphaClipThresholdDepthPostpass: 0.723
-    - _AlphaClipThresholdDepthPrepass: 0.855
+    - _AlphaClipThresholdDepthPostpass: 0.6
+    - _AlphaClipThresholdDepthPrepass: 0.9
     - _AlphaCutoff: 0.35
     - _AlphaCutoffEnable: 1
     - _AlphaCutoffPostpass: 0.567
@@ -171,7 +172,7 @@ Material:
     - _AlphaCutoffShadows: 0.6
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _AlphaThresholdShadow: 0.627
+    - _AlphaThresholdShadow: 0.5
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
@@ -253,7 +254,7 @@ Material:
     - _SSRefractionProjectionModel: 0
     - _SecondarySpecular: 1
     - _SecondarySpecularMultiplier: 1
-    - _SecondarySpecularShift: 0
+    - _SecondarySpecularShift: -0.125
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
     - _Smoothness: 0.5
@@ -286,7 +287,7 @@ Material:
     - _Thickness: 1
     - _ThicknessMultiplier: 1
     - _TransmissionEnable: 1
-    - _TransmissionRim: 0.349
+    - _TransmissionRim: 0.2
     - _TransmissionValue: 0.6
     - _TransparentBackfaceEnable: 1
     - _TransparentCullMode: 2

@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DC_WaterPuddle
-  m_Shader: {fileID: -6465566751694194690, guid: 8a5036518bd56fb4fbe6890577d15de5, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 8a5036518bd56fb4fbe6890577d15de5,
+    type: 3}
   m_ShaderKeywords: _MATERIAL_AFFECTS_ALBEDO _MATERIAL_AFFECTS_MASKMAP _MATERIAL_AFFECTS_NORMAL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -111,24 +112,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1886D5D5: 0.576
     - Vector1_645404D7: 0.9
     - Vector1_6B9EA178: 1
     - Vector1_D03EAD1A: 1
-    - Vector1_DC0D7652: 0.712
+    - Vector1_DC0D7652: 1
     - Vector1_E04DC205: 0.05
     - _AORemapMax: 1
     - _AORemapMin: 0
