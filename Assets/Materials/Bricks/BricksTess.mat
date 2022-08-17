@@ -375,12 +375,12 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _HeightAmplitude: 0.16579999
+    - _HeightAmplitude: 0.2911
     - _HeightAmplitude0: 0.02
     - _HeightAmplitude1: 0.02
     - _HeightAmplitude2: 0.02
     - _HeightAmplitude3: 0.02
-    - _HeightCenter: 0.025934862
+    - _HeightCenter: 0.0147715565
     - _HeightCenter0: 0.5
     - _HeightCenter1: 0.5
     - _HeightCenter2: 0.5
@@ -410,7 +410,7 @@ Material:
     - _HeightPoMAmplitude1: 2
     - _HeightPoMAmplitude2: 2
     - _HeightPoMAmplitude3: 2
-    - _HeightTessAmplitude: 16.58
+    - _HeightTessAmplitude: 29.11
     - _HeightTessAmplitude0: 2
     - _HeightTessAmplitude1: 2
     - _HeightTessAmplitude2: 2
