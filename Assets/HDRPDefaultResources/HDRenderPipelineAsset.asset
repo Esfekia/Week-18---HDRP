@@ -153,7 +153,7 @@ MonoBehaviour:
   m_DefaultVolumeProfile: {fileID: 11400000, guid: 8555f467fc9e98d488ede543d68f187e, type: 2}
   m_LensAttenuation: 0
   m_UseRenderGraph: 1
-  m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02, type: 2}
+  m_DefaultLookDevProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198262773251917
@@ -226,7 +226,7 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 2
     planarReflectionResolution:
-      m_Values: 000100000004000000040000
+      m_Values: 000100000004000000080000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 1
@@ -440,9 +440,8 @@ MonoBehaviour:
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 9e619ff2f47012843833845cb018b28d, type: 2}
-  - {fileID: 11400000, guid: 8da0c2b9805ea3844bf58c99bc9fae0f, type: 2}
-  - {fileID: 11400000, guid: 7f594cf100fba854eaa40151b0af9ffa, type: 2}
+  - {fileID: 11400000, guid: 8c9cc026b8b018e4b85ed0dff3f70ff5, type: 2}
+  - {fileID: 11400000, guid: abae12501b14b95479dd2f28399ef1f9, type: 2}
   beforeTransparentCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
