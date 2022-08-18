@@ -201,7 +201,7 @@ Material:
     - _InvTilingScale: 1
     - _Ior: 1.5
     - _IridescenceMask: 1
-    - _IridescenceThickness: 0.513
+    - _IridescenceThickness: 0.38
     - _LinkDetailsWithBase: 1
     - _MaterialID: 3
     - _Metallic: 0
